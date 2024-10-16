@@ -79,32 +79,32 @@ let textvariant = {
 // ];
 
 let Icons = [
-  { name: <PiTwitterLogoThin />, href: "https://twitter.com/Joenaldo" },
-  { name: <PiInstagramLogoThin />, href: "https://instagram.com/Joscriptt " },
-  { name: <PiGithubLogoLight />, href: "https://github.com/Joscriptt" },
+  { name: <PiTwitterLogoThin />, href: "https://twitter.com/" },
+  { name: <PiInstagramLogoThin />, href: "https://instagram.com/ " },
+  { name: <PiGithubLogoLight />, href: "https://github.com/" },
 ];
 
 const people = [
   {
     id: 1,
     name: "INSTAGRAM",
-    designation: "@Joscriptt",
+    designation: "Zippy",
     image: "/img/time.png",
-    href: "https://instagram.com/Joscriptt ",
+    href: "https://instagram.com/",
   },
   {
     id: 2,
     name: "TWITTER",
-    designation: "@Joenaldo",
+    designation: "Zippy",
     image: "/img/alarm.png",
-    href: "https://twitter.com/Joenaldo",
+    href: "https://twitter.com/",
   },
   {
     id: 3,
-    name: "GITHUB",
-    designation: "Joscriptt",
+    name: "Zippy",
+    designation: "Zippy",
     image: "/img/party.png",
-    href: "https://github.com/Joscriptt",
+    href: "https://github.com/Zippy",
   },
 ];
 
@@ -145,7 +145,7 @@ function Headpage() {
         <div className="flex gap-x-3 items-center">
           <Switch checked={checked} setChecked={setChecked} />
           <p className="text-sm text-white hidden md:block">
-            Download as Template
+            Comming Soon!
           </p>
         </div>
 
